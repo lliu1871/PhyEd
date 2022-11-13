@@ -16,5 +16,5 @@ asdf.
 <div class="container mt-3">
   <h2>Rounded Corners</h2>
   <p>The .rounded class adds rounded corners to an image:</p>            
-  <img src="/img/1.jpg" class="rounded" alt="Cinque Terre" width="304" height="236"> 
+  <img src="/img/1.jpg" class="rounded" alt="Cinque Terre" width="1304" height="236"> 
 </div>
