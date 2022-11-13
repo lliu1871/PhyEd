@@ -4,4 +4,9 @@
 
 layout: home
 ---
-# Hello my first page
+
+Hello my first page. This is a grand to take the first page to be our home page. and we will further asdfasdasdf
+sdfsdfjialsdf.asf
+asdf.
+
+<img src="/img/1.jpg" class="img-fluid" alt="Responsive image">
