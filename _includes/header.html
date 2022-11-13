@@ -2,9 +2,10 @@
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.bootstrap.header_pages | default: default_paths -%}
   {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-  <img src="/img/1.jpg" class="img-fluid" alt="Responsive image">
+  
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
+      <img src="/img/1.jpg" class="img-fluid" alt="Responsive image">
       <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
       {%- if titles_size > 0 -%}
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
