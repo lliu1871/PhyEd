@@ -2,6 +2,7 @@
   {%- assign default_paths = site.pages | map: "path" -%}
   {%- assign page_paths = site.bootstrap.header_pages | default: default_paths -%}
   {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+  <img src="/img/1.jpg" class="img-fluid" alt="Responsive image">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <a class="navbar-brand" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
