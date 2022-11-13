@@ -9,8 +9,6 @@ Hello my first page. This is a grand to take the first page to be our home page.
 sdfsdfjialsdf.asf
 asdf.
 
-![drawing](/img/1.jpg)
-
 # ni hao
 
 <div class="container mt-3">
