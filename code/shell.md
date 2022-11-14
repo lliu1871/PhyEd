@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: page
 title: shell
 permalink: /code/shell
 ---
