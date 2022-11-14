@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /r/traversal/
+permalink: /code/traversal/
 ---
 
 ### R code for tree traversal
