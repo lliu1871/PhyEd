@@ -10,7 +10,7 @@ permalink: /present/
 			<p>Lecture1 - pairwise alignment</p>
 		</div>
 		<div class="col-sm-3" style="background-color:#f8f8f8">
-			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={a101bbcc-779f-49e9-ab05-47fc0959cda8}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="280px" height="200px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>		
+			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={a101bbcc-779f-49e9-ab05-47fc0959cda8}&amp;action=embedview&amp;wdAr=1.7777777777777777">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>		
 			<p>COVID talk for GSD</p>
 		</div>
 
