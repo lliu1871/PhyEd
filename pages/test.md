@@ -1,6 +1,4 @@
----
-permalink: /page/test
----
+
 
 # Hello bash
   
