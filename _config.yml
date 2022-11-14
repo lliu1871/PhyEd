@@ -62,7 +62,7 @@ bootstrap:
 
 
 # Build settings
-theme: jekyll-bootstrap-theme
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+remote_theme: jonaharagon/jekyll-bootstrap-theme
