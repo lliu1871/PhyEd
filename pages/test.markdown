@@ -5,7 +5,7 @@ permalink: /page/test
 
 # Hello bash
   
-<code>
+```shell
 #!/usr/bin/bash
 echo "hello world"
-</code>
+```
