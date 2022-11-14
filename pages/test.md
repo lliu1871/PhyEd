@@ -1,5 +1,5 @@
 ---
-include header.html
+include: header.html
 ---
 
 # Hello bash
