@@ -5,7 +5,7 @@ permalink: /r/traversal/
 
 ### R code for tree traversal
 
-```{js}
+```{R}
 tree1 = "((((s1,s2),s3),s4),s5);"
 tree2 = "(((s1,s2),s3),s4,s5);"
 
