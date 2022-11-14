@@ -6,7 +6,7 @@ permalink: /present/
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-3" style="background-color:#f8f8f8">
-			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={20c161e2-53ea-4a06-8c2e-a1bc2bf19cd5}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="280px" height="200px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={20c161e2-53ea-4a06-8c2e-a1bc2bf19cd5}&amp;action=embedview&amp;wdAr=1.7777777777777777">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 			<p>Lecture1 - pairwise alignment</p>
 		</div>
 		<div class="col-sm-3" style="background-color:#f8f8f8">
@@ -15,7 +15,7 @@ permalink: /present/
 		</div>
 
 		<div class="col-sm-3" style="background-color:#f8f8f8">
-			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={60b1984b-b3df-439d-be65-0006a43228a6}&amp;action=embedview&amp;wdAr=1.3333333333333333" width="280px" height="200px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={60b1984b-b3df-439d-be65-0006a43228a6}&amp;action=embedview&amp;wdAr=1.3333333333333333">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 			<p>Lecture 9 - species tree estimation</p>
 		</div>
 	</div>
