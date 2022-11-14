@@ -16,3 +16,9 @@ permalink: /page/test
   </div>
 </div>
   </div>
+  
+  ```shell
+  #!/usr/bin/bash
+  echo "hello world"
+  
+  ```
