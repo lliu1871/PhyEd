@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: page
 permalink: /r/traversal/
 ---
 
