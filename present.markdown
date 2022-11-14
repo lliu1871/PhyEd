@@ -25,7 +25,7 @@ permalink: /present/
 			<iframe src="https://outlookuga-my.sharepoint.com/personal/lliu_uga_edu/_layouts/15/Doc.aspx?sourcedoc={b3643981-a4dd-4c3c-a768-9e73063e05a2}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="300px" height="200px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 			<p>Lecture10 - birth death process</p>
 		</div>
-	</div
+	</div>
 
 	<div class="row">
 		<div class="col">
