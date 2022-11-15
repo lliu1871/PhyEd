@@ -43,6 +43,8 @@ bootstrap:
   # this and add the path to the page *files* in order as they should show up
   header_pages:
    - about.markdown
+   - code.markdown
+   - course.markdown
    - present.markdown
    - help.markdown
 
