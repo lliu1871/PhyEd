@@ -1,6 +1,11 @@
 pre code {
-      background: green;
+      background: none;
       padding: 0;
       overflow: visible;
       overflow-wrap: normal;
-    }
+}
+
+code {
+      background: grey;     
+      color: red;    
+}
