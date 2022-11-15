@@ -1,9 +1,10 @@
 ---
 layout: markdown
+title: Tree traversal
 permalink: /code/traversal/
 ---
 
-### R code for tree traversal
+#### The following R code can find three tree traversals innode, prenode, postnode
 
 ```{R}
 tree1 = "((((s1,s2),s3),s4),s5);"
@@ -49,7 +50,10 @@ find_offspring(inode=7, nodes, species, nspecies, offspring1)
 
 inor = rep(0, dim(nodes)[1])
 index=1
+```
 
+#### inorder traversal
+```
 inorder = function(inode, treenodes, nspecies){
 	if(inode <= nspecies){
 		print(inode)
@@ -67,8 +71,11 @@ inorder = function(inode, treenodes, nspecies){
 }
 
 inorder(9, nodes, nspecies)
+```
 
+#### Preorder traversal
 
+```
 preorder = function(inode, treenodes, nspecies){
 	if(inode <= nspecies){
 		print(inode)
@@ -84,8 +91,11 @@ preorder = function(inode, treenodes, nspecies){
 
 
 preorder(9, nodes, nspecies)
+```
 
+#### Postorder traversal
 
+```
 postorder = function(inode, treenodes, nspecies){
 	if(inode <= nspecies){
 		print(inode)
