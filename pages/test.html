@@ -1,0 +1,73 @@
+<h2 id="shell-script-tutorial">Shell script tutorial</h2>
+<p>A shell script is a series of <a href="https://ss64.com/bash/">bash commands</a> that can be executed by shell. A nice tutorial for shell scripting is available at <a href="https://www.tutorialspoint.com/unix/shell_scripting.htm">the shell tutorial</a> and <a href="https://devhints.io/bash">Bash scripting cheatsheet</a>.</p>
+<h4 id="the-first-shell-script-is-to-print-hello-world-using-echo">The first shell script is to print &quot;Hello World&quot; using <em>echo</em>.</h4>
+<pre><code class="language-shell">#!/bin/sh
+echo &quot;Hello World&quot;
+</code></pre>
+<h4 id="read-input-from-screen">Read input from screen</h4>
+<pre><code class="language-shell">#!/bin/sh
+echo &quot;What is your name?&quot;
+read NAME
+echo &quot;Hello, $NAME&quot;
+</code></pre>
+<h4 id="read-parameters-scriptsh-3-alpha">Read parameters: ./script.sh 3 alpha</h4>
+<pre><code class="language-shell">#!/bin/sh
+echo $1 $2
+echo $@
+</code></pre>
+<h4 id="array">Array</h4>
+<pre><code class="language-shell">#!/bin/sh
+NAME[0]=&quot;Zara&quot;
+NAME[1]=&quot;Qadir&quot;
+NAME[2]=&quot;Mahnaz&quot;
+NAME[3]=&quot;Ayan&quot;
+NAME[4]=&quot;Daisy&quot;
+echo &quot;names: ${NAME[*]}&quot;
+for I in ${NAME[*]}
+do
+        echo $I
+done
+</code></pre>
+<h4 id="math-expression">Math expression</h4>
+<pre><code class="language-shell">#!/bin/sh
+val=`expr 2 + 2`
+echo &quot;Total value : $val&quot;
+</code></pre>
+<h4 id="flow">Flow</h4>
+<pre><code class="language-shell">#!/bin/sh
+NAME[0]=&quot;Zara&quot;
+NAME[1]=&quot;Qadir&quot;
+NAME[2]=&quot;Mahnaz&quot;
+NAME[3]=&quot;Ayan&quot;
+NAME[4]=&quot;Daisy&quot;
+echo &quot;names: ${NAME[*]}&quot;
+
+for I in ${NAME[*]}
+do
+        echo $I
+        if [ $I == &quot;Ayan&quot; ] 
+        then
+            break
+        fi
+done
+</code></pre>
+<h4 id="loop">Loop</h4>
+<pre><code class="language-shell">#!/bin/sh
+a=0
+while [ $a -lt 10 ]
+do
+   echo $a
+   if [ $a -eq 5 ]
+   then
+      break
+   fi
+   a=`expr $a + 1`
+done
+</code></pre>
+<h4 id="define-a-function">Define a function</h4>
+<pre><code class="language-shell">#!/bin/sh
+Hello () {
+   echo &quot;Hello World $1 $2&quot;
+}
+Hello Zara Ali
+</code></pre>
