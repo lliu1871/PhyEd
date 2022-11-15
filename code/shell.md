@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Shell script tutorial
 permalink: /code/shell
 ---
