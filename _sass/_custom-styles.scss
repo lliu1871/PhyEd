@@ -1,5 +1,5 @@
 pre code {
-      background: none;
+      background: blue;
       padding: 0;
       overflow: visible;
       overflow-wrap: normal;
@@ -8,4 +8,8 @@ pre code {
 code {
       background: grey;     
       color: red;    
+}
+
+pre {
+      background: green;     
 }
