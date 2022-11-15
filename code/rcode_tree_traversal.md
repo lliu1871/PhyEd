@@ -52,7 +52,7 @@ inor = rep(0, dim(nodes)[1])
 index=1
 ```
 
-#### inorder traversal
+#### Inorder traversal
 ```
 inorder = function(inode, treenodes, nspecies){
 	if(inode <= nspecies){
