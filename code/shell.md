@@ -4,13 +4,6 @@ title: shell
 permalink: /code/shell
 ---
 
-pre code {
-      background: none;
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-
 
 ## Shell script tutorial
 A shell script is a series of [bash commands](https://ss64.com/bash/) that can be executed by shell. A nice tutorial for shell scripting is available at [the shell tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm) and [Bash scripting cheatsheet](https://devhints.io/bash).
