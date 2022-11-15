@@ -4,7 +4,9 @@ title: Tree traversal
 permalink: /code/traversal/
 ---
 
-#### The following R code can find three tree traversals innode, prenode, postnode
+## Tree traversal
+
+#### check if a tree is rooted
 
 ```{python}
 tree1 = "((((s1,s2),s3),s4),s5);"
@@ -23,8 +25,10 @@ is.rooted = function(treestring){
 	}
 	rooted
 }
+```
 
-
+#### find the offspring species of an internal node
+```
 library(phybase)
 tree=read.tree.nodes(tree1)
 species = tree$names
