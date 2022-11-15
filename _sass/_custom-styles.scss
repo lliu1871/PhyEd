@@ -1,6 +1,5 @@
 pre code {
       background: none;
-      padding-left: 20px;
       margin-left: 20px;
       overflow: visible;
       overflow-wrap: normal;
@@ -10,9 +9,12 @@ code {
       font-family: monospace, Arial, 'Lucida Console', Consolas;  
       font-style: normal;
       font-size: 24px;
+      margin-left: 20px;
 }
 
 pre {
+      padding-left: 20px;
+      margin-left: 20px;
       background: lightgrey;   
       border: solid green 1px;
 }
