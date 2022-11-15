@@ -6,7 +6,7 @@ permalink: /code/traversal/
 
 #### The following R code can find three tree traversals innode, prenode, postnode
 
-```{R}
+```{r}
 tree1 = "((((s1,s2),s3),s4),s5);"
 tree2 = "(((s1,s2),s3),s4,s5);"
 
