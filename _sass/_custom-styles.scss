@@ -1,12 +1,13 @@
 pre code {
       background: none;
-      padding: 0;
+      padding-left: 10px;
       overflow: visible;
       overflow-wrap: normal;
 }
 
 code {  
       font-family: Arial, 'Lucida Console', Consolas, monospace;  
+      padding-left: 10px;
       color: red;
       size: 18px;
 }
