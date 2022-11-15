@@ -1,14 +1,12 @@
 ---
 layout: page
-title: shell
+title: Shell script tutorial
 permalink: /code/shell
 ---
 
-
-## Shell script tutorial
 A shell script is a series of [bash commands](https://ss64.com/bash/) that can be executed by shell. A nice tutorial for shell scripting is available at [the shell tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm) and [Bash scripting cheatsheet](https://devhints.io/bash).
 
-#### The first shell script is to print "Hello World" using *echo*.
+#### The first shell script "Hello World" using *echo*.
 ```shell
 #!/bin/sh
 echo "Hello World"
@@ -22,14 +20,14 @@ read NAME
 echo "Hello, $NAME"
 ```
 
-#### Read parameters: ./script.sh 3 alpha
+#### Read parameters from command lines: ./script.sh 3 alpha
 ```shell
 #!/bin/sh
 echo $1 $2
 echo $@
 ```
 
-#### Array
+#### Array variables. All shell variables should be capitalized
 ```shell
 #!/bin/sh
 NAME[0]="Zara"
@@ -44,14 +42,14 @@ do
 done
 ```
 
-#### Math expression
+#### Math expression using \`expr\`
 ```shell
 #!/bin/sh
 val=`expr 2 + 2`
 echo "Total value : $val"
 ```
 
-#### Flow
+#### Flow: make a decision if, elif, else
 
 ```shell
 #!/bin/sh
@@ -72,7 +70,7 @@ do
 done
 ```
 
-#### Loop
+#### Loop: for, until, while
 ```shell
 #!/bin/sh
 a=0
