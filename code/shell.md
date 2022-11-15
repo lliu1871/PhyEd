@@ -4,7 +4,7 @@ title: Shell script tutorial
 permalink: /code/shell
 ---
 
-A shell script is a series of [bash commands](https://ss64.com/bash/) that can be executed by shell. A nice tutorial for shell scripting is available at [the shell tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm) and [Bash scripting cheatsheet](https://devhints.io/bash). ```math \alpha```.
+A shell script is a series of [bash commands](https://ss64.com/bash/) that can be executed by shell. A nice tutorial for shell scripting is available at [the shell tutorial](https://www.tutorialspoint.com/unix/shell_scripting.htm) and [Bash scripting cheatsheet](https://devhints.io/bash).
 
 #### The first shell script "Hello World" using *echo*.
 ```shell
