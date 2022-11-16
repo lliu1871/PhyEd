@@ -4,6 +4,7 @@ permalink: /code/needleman
 title: "Needleman-Wunch"
 author: "Liang Liu"
 output: html_document
+date: 2021-04-16
 ---
 # {{ page.title}}
 ##### {{ page.author }}
