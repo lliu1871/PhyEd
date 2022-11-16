@@ -1,6 +1,6 @@
 ---
 layout: markdown
-permalink: /course/STAT6420
+permalink: /course/stat6420
 ---
 STAT6420: Linear Regression
 
