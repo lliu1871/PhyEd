@@ -1,0 +1,118 @@
+---
+title: "Linear Regression"
+author: "Liang Liu"
+date: "4/22/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+########################################
+## Simple linear regression
+########################################
+
+#### 1. simulate data
+
+```{r}
+x = rnorm(100, mean=3, sd=1)
+error = rnorm(100, mean=0, sd=2)
+y = 2.1+1.25*x+error
+
+data=data.frame(cbind(x,y))
+data
+plot(data)
+```
+
+#### 2. fit the linear regression model
+
+```{r}
+result = lm(data$y~data$x)
+summary(result)
+```
+
+#### 3. a residual plot 
+
+```{r}
+plot(result$residuals)
+abline(a=0,b=0, col="red")
+
+hist(result$residuals)
+```
+
+#### 4. check the normality assumption
+```{r}
+shapiro.test(result$residuals)
+```
+
+#### 5. prediction
+
+```{r}
+x_new = 0.7
+y_new = result$coefficients[1]+result$coefficients[2]*x_new
+y_new
+```
+#### 6. a quadratic relationship
+
+```{r}
+x = rnorm(100, mean=0, sd=1)
+y = 2.1+1.25*x^2+error
+data=data.frame(cbind(x,y))
+result = lm(data$y~data$x)
+summary(result)
+```
+
+########################################
+## Multiple linear regression
+########################################
+
+#### 1. simulate data
+
+```{r}
+x1 = rnorm(100, mean=3, sd=1)
+x2 = rnorm(100, mean=2.5, sd=2.1)
+
+error = rnorm(100, mean=0, sd=2)
+y = 2.1 + 1.25*x1 - 3*x2 + error
+data=data.frame(cbind(y,x1,x2))
+```
+
+##### 2. fit the linear regression model
+
+```{r}
+result = lm(y~x1+x2,data=data)
+summary(result)
+```
+
+#### 3. a residual plot 
+
+```{r}
+plot(result$residuals)
+abline(a=0,b=0, col="red")
+
+hist(result$residuals)
+```
+#### 4. check the normality assumption
+```{r}
+shapiro.test(result$residuals)
+```
+
+########################################
+## Logistic regression
+########################################
+
+#### 1. simulate data
+
+```{r}
+age <- round(runif(100, 18, 80))
+log_odds = -2.2 + 0.02*age
+p = 1/(1 + exp(-log_odds))
+y <- rbinom(n = 100, size = 1, prob = p)
+```
+
+#### 2. fit the logistic regression model
+```{r}
+mod <- glm(y ~ age, family = "binomial")
+summary(mod)
+```
