@@ -2,6 +2,9 @@
 layout: markdown
 title: Tree traversal
 permalink: /code/traversal/
+author: "Liang Liu"
+output: html_document
+date: 2021-04-16
 ---
 
 # {{ page.title }}
