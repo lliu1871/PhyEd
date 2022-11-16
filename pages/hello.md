@@ -1,6 +1,6 @@
 ---
 layout: markdown
-permalink /code/hello
+permalink: /code/hello
 ---
 
 # hello
