@@ -4,7 +4,7 @@ title: Tree traversal
 permalink: /code/traversal/
 ---
 
-## Tree traversal
+# {{ page.title }}
 
 #### check if a tree is rooted
 
