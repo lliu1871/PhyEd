@@ -4,7 +4,7 @@
 layout: home
 ---
 
-# This is my first website
+This is my first website. this website aims to promote research and enthusiasms in life research. 
 
 <div class="container mt-5">
   
