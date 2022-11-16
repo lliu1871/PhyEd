@@ -9,7 +9,7 @@ date: 2021-04-16
 
 Given a bifurcating tree, there are three ways of traveling along the edges/nodes of the tree, namely, preorder, inorder, and postorder traversal. Tree traversal is a popular algorithm in tree-related computing. 
 
-#### check if a tree is rooted
+#### Check if a tree is rooted
 
 ```{python}
 tree1 = "((((s1,s2),s3),s4),s5);"
@@ -30,7 +30,7 @@ is.rooted = function(treestring){
 }
 ```
 
-#### find the offspring species of an internal node
+#### Find the offspring species of an internal node
 ```
 library(phybase)
 tree=read.tree.nodes(tree1)
