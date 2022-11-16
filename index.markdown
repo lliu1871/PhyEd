@@ -8,6 +8,7 @@ layout: home
   <div class="row">
     <div class="col-sm-4 text-center text-success">
       <a href="https://teach.phylolab.net/course"><h3>Course</h3></a>
+      <i class='fas fa-graduation-cap' style='font-size:48px;color:red'></i>
      <img src="./img/course/course1.jpg" class="rounded-circle" alt="course"  width="304" height="236">
     </div>
     <div class="col-sm-4 text-center text-success">
