@@ -1,7 +1,7 @@
 ---
 layout: markdown
 title: "Smith-Waterman"
-permalink: /smith
+permalink: /code/smith
 author: "Liang Liu"
 output: html_document
 date: 2021-04-16
