@@ -7,9 +7,6 @@ output: html_document
 date: 2021-04-16
 ---
 
-# {{ page.title }}
-##### {{ page.author }}
-##### {{ page.date | %d-%m-%Y }}
 
 
 #### Define a score function and two input sequences for alignment
