@@ -7,7 +7,7 @@ output: html_document
 date: 2021-04-16
 ---
 
-
+The Smith-Waterman algorithm is a dynamic programming for pairwise alignment. Given the score function and two sequences, this algorithm can find the local best alignment.
 
 #### Define a score function and two input sequences for alignment
 ```{r}
