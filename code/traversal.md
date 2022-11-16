@@ -7,7 +7,7 @@ output: html_document
 date: 2021-04-16
 ---
 
-# {{ page.title }}
+Given a bifurcating tree, there are three ways of traveling along the edges/nodes of the tree, namely, preorder, inorder, and postorder traversal. Tree traversal is a popular algorithm in tree-related computing. 
 
 #### check if a tree is rooted
 
