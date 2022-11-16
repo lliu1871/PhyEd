@@ -8,13 +8,13 @@ permalink: /course/stat8060
 
 ---------------------------------------------------------------------------
 
-### [Course syllabus](STAT8060_syllabus.pdf)
+#### [Course syllabus](STAT8060_syllabus.pdf)
 
-### 1. Introduction ([code](STAT8060_code.html), [PPT](STAT8060_1.pptx))
+- Introduction ([code](STAT8060_code.html), [PPT](STAT8060_1.pptx))
 
-### 2. Chapter 1: Numerical Linear Algebra ([code](STAT8060_code.html), [PPT](STAT8060_2.pptx), [Lecture notes](Chapter_4_Numerical_Matrix_Analysis.pdf))
+- Chapter 1: Numerical Linear Algebra ([code](STAT8060_code.html), [PPT](STAT8060_2.pptx), [Lecture notes](Chapter_4_Numerical_Matrix_Analysis.pdf))
 
-### If you cannot attend the class in person, you may use the following zoom link to attend the class remotely
+#### If you cannot attend the class in person, you may use the following zoom link to attend the class remotely
 
 Liang Liu is inviting you to a scheduled Zoom meeting.
 
