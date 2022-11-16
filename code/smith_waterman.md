@@ -6,6 +6,8 @@ author: "Liang Liu"
 output: html_document
 ---
 
+{{ page.title }}
+
 ### Define a score function and two input sequences for alignment
 
 
