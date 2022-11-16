@@ -1,11 +1,10 @@
 ---
 layout: markdown
 title: "Smith-Waterman"
+permalink: /smith
 author: "Liang Liu"
 output: html_document
 ---
-
-
 
 ### Define a score function and two input sequences for alignment
 
