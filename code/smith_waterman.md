@@ -4,7 +4,7 @@ title: "Smith-Waterman"
 permalink: /smith
 author: "Liang Liu"
 output: html_document
-date: 4/16/21
+date: 2021-04-16
 ---
 
 # {{ page.title }}
