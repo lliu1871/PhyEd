@@ -8,21 +8,18 @@ date: 2021-04-16
 ---
 
 # {{ page.title }}
-#### {{ page.author }}
-#### {{ page.date | %d-%m-%Y }}
+##### {{ page.author }}
+##### {{ page.date | %d-%m-%Y }}
+
 
 #### Define a score function and two input sequences for alignment
-
-
 ```{r}
 score=c(1,-1,-1)
 seq1="AGTC"
 seq2="ACGTC"
 ```
 
-
-### Create matrix M
-
+#### Create matrix M
 ```{r}
 ncol = nchar(seq1)+1
 nrow = nchar(seq2)+1
@@ -36,8 +33,7 @@ rown = c("",unlist(strsplit(seq2,split="")))
 move = M
 ```
 
-### Initialize matrix M
-
+#### Initialize matrix M
 ```{r}
 
 for(i in 2:ncol) M[1,i] = M[1,i-1] + max(0,score[3])
@@ -49,8 +45,7 @@ for(i in 2:nrow) move[i,1] = 2
 M
 ```
 
-### Fill in matrix M
-
+#### Fill in matrix M
 ```{r}
 for(i in 2:nrow){
   for(j in 2:ncol){
@@ -67,8 +62,7 @@ for(i in 2:nrow){
 M
 ```
 
-### Tracing back to find the alignment
-
+#### Tracing back to find the alignment
 ```{r}
 alignment = matrix("",nrow=2,ncol=nrow+ncol)
 i = nrow
@@ -98,8 +92,7 @@ while(x != 0){
 
 ```
 
-### Show the alignment
-
+#### Show the alignment
 ```{r}
 alg=rep("",2)
 alg[1]=paste(alignment[1,], collapse="")
@@ -114,14 +107,12 @@ result$alignment = alg
 result
 ```
 
-### A wrapper function for Smith-Waterman algorithm
-
+#### A wrapper function for Smith-Waterman algorithm
 ```{r}
 Smith_Waterman <- function(seq1, seq2, score){
   ncol = nchar(seq1)+1
   nrow = nchar(seq2)+1
-  
-  
+    
   #create matrix M
   M = matrix(0, ncol = ncol, nrow = nrow)
   colnames(M) = c("",unlist(strsplit(seq1,split="")))
@@ -183,20 +174,15 @@ Smith_Waterman <- function(seq1, seq2, score){
   alg[1]=paste(alignment[1,], collapse="")
   alg[2]=paste(alignment[2,], collapse="")
   
-  result = list(M=as.matrix, score = as.numeric, alignment=as.character)
-  
+  result = list(M=as.matrix, score = as.numeric, alignment=as.character)  
   result$M = M
   result$score = M[nrow,ncol]
-  result$alignment = alg
-  
-  
+  result$alignment = alg   
   result
-
 }
 
 seq1="ATTCCTGTTCCCGTC"
 seq2="ATCCTGCGTTCGTC"
 Smith_Waterman(seq1,seq2,score=c(1,-1,-1))
-
 ```
 
