@@ -2,6 +2,9 @@
 layout: markdown
 title: Shell script tutorial
 permalink: /code/shell
+author: "Liang Liu"
+output: html_document
+date: 2021-04-16
 ---
 
 ## Shell script tutorial
