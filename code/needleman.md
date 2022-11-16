@@ -1,6 +1,6 @@
 ---
 layout: markdown
-permalink: /needleman
+permalink: /code/needleman
 title: "Needleman-Wunch"
 author: "Liang Liu"
 output: html_document
