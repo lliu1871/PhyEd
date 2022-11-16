@@ -1,6 +1,6 @@
 ---
 layout: markdown
-permalink: dijkstra
+permalink: /code/dijkstra
 title: Dijkstra's algorithm
 author: Liang Liu
 date: 2021-08-09
