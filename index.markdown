@@ -8,7 +8,7 @@ layout: home
   <div class="row">
     <div class="col-sm-4 text-center text-success">
       <a href="https://teach.phylolab.net/course"><h3>Course</h3></a>
-      <span class="glyphicon glyphicon-education" style='font-size:48px;color:red'></span>
+      <i class="material-icons" style="font-size:60px;color:red;">cloud</i>
      <img src="./img/course/course1.jpg" class="rounded-circle" alt="course"  width="304" height="236">
     </div>
     <div class="col-sm-4 text-center text-success">
