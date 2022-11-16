@@ -7,8 +7,6 @@ layout: home
 This is my first website. this website aims to promote research and enthusiasms in life research. 
 
 <div class="container-fluid">
-  
-  <p> hello </p>
   <div class="row">
     <div class="col-sm-4 text-left">
       <h3>Course</h3>
