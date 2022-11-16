@@ -10,18 +10,19 @@ layout: home
       <a href="https://teach.phylolab.net/course">
       <i class="material-icons" style="font-size:160px;color:orangered;">devices</i>
       </a>
-      <h4>Course</h4>
-    
+      <h4>Course</h4>   
     </div>
     <div class="col-sm-4 text-center text-success">
-      <a href="https://teach.phylolab.net/code"><h3>Code</h3></a>
-      <img src="./img/course/course2.jpg" class="rounded-circle" alt="code"  width="304" height="236">
-      
+      <a href="https://teach.phylolab.net/course">
+      <i class="material-icons" style="font-size:160px;color:orangered;">wifi_tethering</i>
+      </a>
+      <h4>Code</h4>         
     </div>
     <div class="col-sm-4 text-center text-success">
-      <a href="https://teach.phylolab.net/present"><h3>Presentation</h3></a>        
-      <img src="./img/course/course3.jpg" class="rounded-circle" alt="present" width="304" height="236">
-   
+      <a href="https://teach.phylolab.net/course">
+      <i class="material-icons" style="font-size:160px;color:orangered;">video_label</i>
+      </a>
+      <h4>Presentation</h4>             
     </div>
   </div>
 </div>
