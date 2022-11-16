@@ -6,6 +6,11 @@
   <body class="d-flex flex-column vw-100 vh-100">
 
     {%- include header0.html -%}
+    
+    <header class="post-header py-3">
+      <h1 class="post-title">{{ page.title | escape }}</h1>
+      <h5 class="post-author">{{ page.author | escape }}</h5>
+    </header>
 
     <main class="page-content py-5 flex-shrink-0" aria-label="Content">
 
