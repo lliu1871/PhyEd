@@ -4,11 +4,14 @@ title: "Smith-Waterman"
 permalink: /smith
 author: "Liang Liu"
 output: html_document
+date: 4/16/21
 ---
 
-{{ page.title }}
+# {{ page.title }}
+#### {{ page.author }}
+#### {{ page.date }}
 
-### Define a score function and two input sequences for alignment
+#### Define a score function and two input sequences for alignment
 
 
 ```{r}
