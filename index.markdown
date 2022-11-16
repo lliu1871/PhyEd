@@ -10,18 +10,18 @@ This is my first website. this website aims to promote research and enthusiasms 
   <div class="row">
     <div class="col-sm-4 text-left">
       <h3>Course</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+     <img src="./img/course/course1.jpg" class="rounded" alt="Cinque Terre">
+      <p>online courses</p>
     </div>
     <div class="col-sm-4">
       <h3>Code</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <img src="./img/course/course2.jpg" class="circle" alt="code">
+      <p>Code</p>
     </div>
     <div class="col-sm-4">
       <h3>Presentation</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <img src="./img/course/course3.jpg" class="rounded" alt="present">
+      <p>Presentation</p>
     </div>
   </div>
 </div>
