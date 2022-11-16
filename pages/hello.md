@@ -5,7 +5,7 @@ permalink: /code/hello
 
 # hello
 
-```r
+```{r}
 x=1
 y=x
 score=c(1,-1,-1)
