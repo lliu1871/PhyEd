@@ -1,11 +1,14 @@
 ---
 layout: markdown
 permalink: dijkstra
+title: Dijkstra's algorithm
+author: Liang Liu
+date: 2021-08-09
 ---
 
-# Dijkstra's algorithm for finding the shortest path
+# {{ page.title }}
 
-A network involves nodes and edges. The following directed network involves 6 nodes and 7 directed edges. The number on each directed edge denotes the length of the edge. Suppose each node represents a city and each arrow represents a one-way road between two cities. The number on each arrow is the distance between two cities. For example, the arrow between nodes B and D indicates that you can go from B to D with distance 10, but not from D to B. network.
+Dijkstra's algorithm can find the shortest path between two nodes in a network. A network involves nodes and edges. The following directed network involves 6 nodes and 7 directed edges. The number on each directed edge denotes the length of the edge. Suppose each node represents a city and each arrow represents a one-way road between two cities. The number on each arrow is the distance between two cities. For example, the arrow between nodes B and D indicates that you can go from B to D with distance 10, but not from D to B. network.
 
 Given a network, it is often to find the shortest path between two nodes. The network is represented by an adjacent matrix. For example, the above network is represented by the following adjacent matrix.
 
