@@ -1,4 +1,7 @@
-![GitHub Logo](img/logo.jpg)
+---
+layout: markdown
+permalink: /course/stat8060
+---
      
 
 # STAT8060 - Statistical Computing
