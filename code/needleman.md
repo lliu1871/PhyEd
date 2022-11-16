@@ -6,11 +6,8 @@ author: "Liang Liu"
 output: html_document
 date: 2021-04-16
 ---
-# {{ page.title}}
-##### {{ page.author }}
-##### {{ page.date | date: %m-%d-%Y }}
-####
-####
+
+The Needleman-Wunch algorithm is a dynamic programming for pairwise alignment. Given the score function and two sequences, this algorithm can find the global best alignment. 
 
 #### Define a score function and two input sequences for alignment
 ```{r}
