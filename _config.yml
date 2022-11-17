@@ -23,8 +23,7 @@ author:
   name: 'PhyloLab'
   email: 'phylolab@foxmail.com'
 description: >- # this means to ignore newlines until "baseurl:"
-  This educational website is designed to teach statistical phylogenetics, including
-  the courses in Math/Statistics, Programming, Phylogenetics. 
+  This educational website is designed to teach Math/Statistics, Programming, and Phylogenetics. 
 excerpts:
   # Displays or hides post excerpts from home layout post listing.
   show: true
