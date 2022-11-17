@@ -25,6 +25,6 @@ Statistics: You’ll find this post in your _posts directory. Go ahead and edit 
 <div><i class="material-icons" style="font-size:50px;color:orange;">key</i></div>
 Programming: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...      
 
-- Bash script
+- [Bash script tutorial](/code/shell)
 - Python
 - Webserver
