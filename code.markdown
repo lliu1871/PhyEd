@@ -5,7 +5,7 @@ permalink: /code/
 ---
 
 <div class="container-fluid">
-   <i class="material-icons" style="font-size:30px;color:orange;">devices</i> <p>Course:You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>   
+   <p><i class="material-icons" style="font-size:30px;color:orange;">devices</i> Course:You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>   
 </div>
 
 <div class="container-fluid">
