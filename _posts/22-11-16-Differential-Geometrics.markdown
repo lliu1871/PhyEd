@@ -64,7 +64,7 @@ $$\frac{d}{dt}\phi\circ \gamma_1(t)|_{t=0}=\frac{d}{dt}\phi\circ \gamma_2(t)|_{t
 The equivalence classes are curves through *p* with a prescribed [velocity vector](https://en.wikipedia.org/wiki/Velocity_vector "Velocity vector") at *p*.
 
 ### Tangent space
-A tangent vector at a point $p\in M$ is an equivalent class of differentiable curves $\gamma$ with $\gamma(0)=p\in M$.  The collection of all tangent vectors at *p* forms a [vector space](https://en.wikipedia.org/wiki/Vector_space "Vector space"): the [tangent space](https://en.wikipedia.org/wiki/Tangent_space "Tangent space") to $M$ at $p$, denoted $\color{red}T_pM$.
+A tangent vector at a point $p\in M$ is an equivalent class of differentiable curves $\gamma$ with $\gamma(0)=p\in M$.  The collection of all tangent vectors at *p* forms a [vector space](https://en.wikipedia.org/wiki/Vector_space "Vector space"): the [tangent space](https://en.wikipedia.org/wiki/Tangent_space "Tangent space") to $M$ at $p$, denoted $T_pM$.
 
 ##### A tangent vector for embedded manifold
 
