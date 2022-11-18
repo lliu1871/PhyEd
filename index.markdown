@@ -48,4 +48,5 @@ layout: home
   </div>
 </div>
 
-
+<hr>
+<h1 style="color:red">Post</h1>
