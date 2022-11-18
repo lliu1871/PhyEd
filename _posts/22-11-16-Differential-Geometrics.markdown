@@ -1,3 +1,7 @@
+--
+layout: post
+---
+
 # History
 [Cark Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), a cartographer, is the founding father of differential geometry. He developed many concepts (chart, atlas, map, coordinate system, geodesic, etc.) that are still used in mordern differential geometry. 
 The question that led to his famous Theorema Egreguim is whether we can draw an accurate map of a portion of our planet. The length of a curve $\lambda(t)$ for $t\in[a,b]$ on the surface of the globe is calculated by $L(\lambda)=\int_a^b|\dot\lambda (t)|dt$. By an accurate map, we mean a map $\phi:S^2\rightarrow \mathbb R^2$ from the globe $S^2$ to a plane $\mathbb R^2$ such that $L(\lambda)=L(\phi\circ\lambda)$. The answer is no. It is also impossible to draw an accurate map on the two dimensional plane for the minimum distance, called geodesic distance, between two points on the globe. 
