@@ -49,4 +49,4 @@ layout: home
 </div>
 
 <hr>
-<h2 style="color:skyblue">Post since 2022-06-10</h2>
+<h2 text-primary>Post since 2022-06-10</h2>
