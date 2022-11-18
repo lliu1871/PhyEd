@@ -8,4 +8,5 @@ date: 2021-04-16
 ---
 
 Hello, $x+1$. here is an equation
-$\int_i f(x)dx = \sigma+\beta$
+
+$$\int_i f(x)dx = \sigma+\beta$$
