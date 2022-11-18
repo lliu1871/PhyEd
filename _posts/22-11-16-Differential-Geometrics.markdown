@@ -14,12 +14,14 @@ By an accurate map, we mean a map $\phi:S^2\rightarrow \mathbb R^2$ from the glo
 
 # Calculus in Euclidean Spaces
 The differetiation and integration are well defined in Euclidean space (i.e., $\mathbb R^n$ equipped with inner product). Two important observations for differentiation in Euclidean spaces. First is linearity, that is, the change in $y=f(x)$ is a linear function of the change in $x$. Second is the chain rule, i.e., $d(g\circ f)=dg\circ df$, i.e., $dg(f(t))=\frac{dg}{df}\frac{df}{dt}$. The chain rule indicates that the derivative $\frac{dg}{df}$ is a linear map $\frac{dg}{df}: \frac{df}{dt}\mapsto \frac{dg}{dt}$, which can be used to define the derivative of a function with respect to a curve.
+
 ## A single variable real valued function
 Consider two functions $y_1=x^2$ and $y_2 =2x^2$ (Figure 1). The derivative of $y_1$ is $\frac{dy_1}{dx}=2x$ and the derivative of $y_2$ is $\frac{dy_2}{dx}=4x$. Thus, $\frac{dy_2}{dy_1}=2: 2x\mapsto 4x$. The derivative with respect to a curve is a linear mapping of a tangent vector $\frac{dy_1}{dx}=2x$ to another tangent vector $\frac{dy_2}{dx}=4x$
 
 [[figure_curve.png]]
 Figure 1: The derivative of a function with respect to a curve. The black curve is $y_2=2x^2$ and the red curve is $y_1=x^2$. The black line is the tangent line of $y_2$ at $x=6$, while the red line is the tangent line of $y_1$ at $x=6$. The derivative of $y_2$ with respect to $y_1$ is 2
-\## Multivariate real valued functions
+
+## Multivariate real valued functions
 
 The chain rule for multivariate functions indicates that the derivative $D_\gamma f(\gamma(p))$ of a function $f:\mathbb R^m\rightarrow \mathbb R^n$ at a point $p\in\mathbb R$ with respect to a curve $\gamma:\mathbb R\rightarrow \mathbb R^m$ is a directional derivative of $f$ along the direction of the tangent vector of $\gamma$ at $p$, i.e., $D_\gamma f(\gamma(p))=D_{T_{\gamma(p)}\gamma} f$, where $T_{\gamma(p)}\gamma$ is the tangent vector of $\gamma$ at point $\gamma(p)\in \mathbb R^m$. The derivatie is a linear map is given by $$D_\gamma f(\gamma(p))=J_{n\times m}: T_{\gamma(p)}\mathbb R^m\rightarrow T_{f(\gamma(p))}\mathbb R^n$$
 
@@ -37,14 +39,19 @@ The derivative of $f$ with respect to $g$ at point $p$ is a linear map from the 
 
 ## Topological manifold
 A **topological manifold** is a topological space which is locally homeomorphic to a Euclidean space. Each point in the manifold is equipped with a local coordinate system, which is constructed through a **chart**, i.e., a local **homeomorphic** to a Euclidean space. The **dimension** of the topolocal manifold is equal to the dimension of the locally homeomorphic Euclidean space. The topology of a topological manifold can be inherited by any subset of the manifold. **Submanifold** can be constructed through the relative topology inherited from the manifold.
+
 A topological manifold provides a local structure necessary for continuous maps to work on a geometric object. However, it requires additional structure to allow differentiation and integration on the manifold. A **smooth manifold** is a topological manifold which is locally **diffeomorphic** to a Euclidean space. Differentiation at a point in the smooth manifold is constructed on the **tangent space**, in which a tangent vector is the velocity of a smooth curve in the manifold. **Derivatives** are defined through charts similarly as those defined in the Euclidean spaces. To perform vector calculus on the manifold, a **vector field**, **integral curves**, and **flow of a vector field** are defined. A vector field of a manifold can be mapped to another vector field of another manifold or vice versa through two linear maps **pullback** and **pushforward**. The differential of a vector field is defined through **Lie bracket**. A more general defination **derivation** of a vector field is given in the context of the **Lie algebra** of a **Lie group**.
+
 A smooth manifold is represented by a set of local coordinates. Reconstruction of the global geometric object from local coordinates is possible for a smooth manifold with a **Hausdorff topology**, i.e., Riemanian metric manifold. The existance of a coutable atlas indicates that a smooth manifold with a Hausdorff and second coutable topology is **metrizable** and **paracompact**.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uGEV0Wk0eIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Chart
 Let $U\subset M$ be a subset of a manifold M. A chart is a pair $(U,\psi)$ where $\psi: U\rightarrow \mathbb{R}^k$ is a bijection map from $U$ to an open set $\psi(U)\subset \mathbb{R}^k$.
+
 A atlas is a collection of charts $\mathscr A=\{(\psi_\alpha,U_\alpha)\}_{\alpha\in A}$ that cover the manifold M.
-\# Differentiable manifold
+
+# Differentiable manifold
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fa6SRAwY80Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 # Tangent space
 ## Differentiable functions on a manifold
@@ -53,6 +60,7 @@ A real valued function $f:M\rightarrow R$ on a $n$ dimensional differentiable ma
 Two curves $\gamma_1$ and $\gamma_2$ with $\gamma_1 (0)=\gamma_2(0)=p$ in a differentiable manifold $M$ are equivalent, denoted by $\gamma_1 \equiv \gamma_2$, if for any coordinate chart $\phi$,
 $$\frac{d}{dt}\phi\circ \gamma_1(t)|_{t=0}=\frac{d}{dt}\phi\circ \gamma_2(t)|_{t=0}$$
 The equivalence classes are curves through *p* with a prescribed [velocity vector](https://en.wikipedia.org/wiki/Velocity_vector "Velocity vector") at *p*.
+
 ### Tangent space
 A tangent vector at a point $p\in M$ is an equivalent class of differentiable curves $\gamma$ with $\gamma(0)=p\in M$.  The collection of all tangent vectors at *p* forms a [vector space](https://en.wikipedia.org/wiki/Vector_space "Vector space"): the [tangent space](https://en.wikipedia.org/wiki/Tangent_space "Tangent space") to $M$ at $p$, denoted $\color{red}T_pM$.
 
