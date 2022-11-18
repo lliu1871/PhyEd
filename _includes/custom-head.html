@@ -4,10 +4,21 @@
   2. Customize default _includes/custom-head.html in your source directory and insert the given code snippet.
 {% endcomment %}
 
+{% comment %} add favicon {% endcomment %}
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}" >
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+{% comment %} add mathjax {% endcomment %}
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']]
+    }
+  };
+</script>
+
+{% comment %} add google icon {% endcomment %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 {% comment %} add google search {% endcomment %}
 <script async src="https://cse.google.com/cse.js?cx=b51ce041f06704f4a"></script>
