@@ -7,18 +7,25 @@ categories: mathematics
 
 [Cark Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss), a cartographer, is the founding father of differential geometry. He developed many concepts (chart, atlas, map, coordinate system, geodesic, etc.) that are still used in mordern differential geometry.
 The question that led to his famous Theorema Egreguim is whether we can draw an accurate map of a portion of our planet. The length of a curve $\lambda(t)$ for $t\in[a,b]$ on the surface of the globe is calculated by $L(\lambda)=\int_a^b|\dot\lambda (t)|dt$. By an accurate map, we mean a map $\phi:S^2\rightarrow \mathbb R^2$ from the globe $S^2$ to a plane $\mathbb R^2$ such that $L(\lambda)=L(\phi\circ\lambda)$. The answer is no. It is also impossible to draw an accurate map on the two dimensional plane for the minimum distance, called geodesic distance, between two points on the globe.
-\# Calculus in Euclidean Spaces
+
+# Calculus in Euclidean Spaces
 The differetiation and integration are well defined in Euclidean space (i.e., $\mathbb R^n$ equipped with inner product). Two important observations for differentiation in Euclidean spaces. First is linearity, that is, the change in $y=f(x)$ is a linear function of the change in $x$. Second is the chain rule, i.e., $d(g\circ f)=dg\circ df$, i.e., $dg(f(t))=\frac{dg}{df}\frac{df}{dt}$. The chain rule indicates that the derivative $\frac{dg}{df}$ is a linear map $\frac{dg}{df}: \frac{df}{dt}\mapsto \frac{dg}{dt}$, which can be used to define the derivative of a function with respect to a curve.
-\## A single variable real valued function
+## A single variable real valued function
 Consider two functions $y_1=x^2$ and $y_2 =2x^2$ (Figure 1). The derivative of $y_1$ is $\frac{dy_1}{dx}=2x$ and the derivative of $y_2$ is $\frac{dy_2}{dx}=4x$. Thus, $\frac{dy_2}{dy_1}=2: 2x\mapsto 4x$. The derivative with respect to a curve is a linear mapping of a tangent vector $\frac{dy_1}{dx}=2x$ to another tangent vector $\frac{dy_2}{dx}=4x$
-\[\[figure_curve.png\]\]
+
+[[figure_curve.png]]
 Figure 1: The derivative of a function with respect to a curve. The black curve is $y_2=2x^2$ and the red curve is $y_1=x^2$. The black line is the tangent line of $y_2$ at $x=6$, while the red line is the tangent line of $y_1$ at $x=6$. The derivative of $y_2$ with respect to $y_1$ is 2
 \## Multivariate real valued functions
+
 The chain rule for multivariate functions indicates that the derivative $D_\gamma f(\gamma(p))$ of a function $f:\mathbb R^m\rightarrow \mathbb R^n$ at a point $p\in\mathbb R$ with respect to a curve $\gamma:\mathbb R\rightarrow \mathbb R^m$ is a directional derivative of $f$ along the direction of the tangent vector of $\gamma$ at $p$, i.e., $D_\gamma f(\gamma(p))=D_{T_{\gamma(p)}\gamma} f$, where $T_{\gamma(p)}\gamma$ is the tangent vector of $\gamma$ at point $\gamma(p)\in \mathbb R^m$. The derivatie is a linear map is given by $$D_\gamma f(\gamma(p))=J_{n\times m}: T_{\gamma(p)}\mathbb R^m\rightarrow T_{f(\gamma(p))}\mathbb R^n$$
+
 where $J_{m\times n}$ is the Jacobin matrix. Let $g:\mathbb R^k\rightarrow \mathbb R^m$ be a function and $f:Im(g)\subset\mathbb R^m \rightarrow \mathbb R^n$. The derivative $D_gf(p)$ of the function $f$ at a point $p\in \mathbb R^k$ with respect to the function $g$ is a linear map $$D_gf(g(p))=J_{n\times m}: T_{g(p)}\mathbb R^m\rightarrow T_{f(g(p))}\mathbb R^n$$
+
 The derivative of $f$ with respect to $g$ at point $p$ is a linear map from the tangent space of $g$ at point $g(p)$ to the tangent space of $f$ at point $f(g(p))$. We have omitted the technical details necessary for the above conclusion. The conclusion that the derivative between two functions is a linear map between two tangent vector spaces can be used to define the derivatives on differential manifold.
-\# Topological Manifold
-\## Set theory
+
+# Topological Manifold
+
+## Set theory
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6EIWRg-6ftQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 \## Topological space
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6EIWRg-6ftQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
