@@ -25,11 +25,11 @@ layout: default
       {%- for post in posts -%}
       <li class="mb-5">
         <span class="post-meta text-muted">{{ post.date | date: date_format }}</span>
-        <h3>
+        <h4>
           <a class="post-link text-decoration-none" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
+        </h4>
         {%- if site.excerpts.show -%}
           {%- if site.excerpts.auto_truncate -%}{{ post.excerpt | truncatewords: 32 }}{%- else -%}{{ post.excerpt }}{%- endif -%}
         {%- endif -%}
