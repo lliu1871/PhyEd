@@ -76,7 +76,7 @@ Let $\gamma(t)$ be a differentiable curve in a $n$ dimensional differentiable ma
 By the chain rule, $\frac{d}{dt}f(\gamma(t))=\frac{d}{dt}(f\circ \phi^{-1}\circ \phi \circ \gamma(t))$, the function $f$ has the same directional derivative at *p* along two equivalent curves $\gamma_1$ and $\gamma_2$. Thus, the directional derivative depends only on the [tangent vector](https://en.wikipedia.org/wiki/Tangent_vector "Tangent vector") of the curve at *p*.
 
 ### The differential
-Let $X$ be a tangent vector at $p\in M$ and $f$ is a differentiable function. Define the derivative of $f$ at $p$ along the tangent vector as $Xf(p):=\frac{d}{dt}f(\gamma(t))|_{t=0}$. If $f$ is fixed, then the map $X\mapsto Xf(p)$ is a linear functional on the tangent space. This linear functional is denoted by $\color{red}df(p)$ and is called the differential of $f$ at $p$, i.e., $df(p):T_pM\rightarrow \mathbb R$.
+Let $X$ be a tangent vector at $p\in M$ and $f$ is a differentiable function. Define the derivative of $f$ at $p$ along the tangent vector as $Xf(p):=\frac{d}{dt}f(\gamma(t))|_{t=0}$. If $f$ is fixed, then the map $X\mapsto Xf(p)$ is a linear functional on the tangent space. This linear functional is denoted by $df(p)$ and is called the differential of $f$ at $p$, i.e., $df(p):T_pM\rightarrow \mathbb R$.
 
 Def: Let $M\subset \mathbb{R}^n$ be a smooth $m$-dimensional manifold and a point $p\in M$. A vector $v\in \mathbb{R}^n$ is a tangent vector of $M$ at $p$ if there exists a smooth curve $\gamma:R\rightarrow M$ such that $\gamma(0)=p$ and $\dot{\gamma}(0)=v$.  
 The set $T_pM := \{\dot{\gamma}(0)|\gamma:R\rightarrow M, \gamma(0)=p\}$ of tangent vectors of $M$ at $p$ is called the tangent space of M at p.
