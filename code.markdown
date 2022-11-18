@@ -19,7 +19,7 @@ Bioinformatics: You’ll find this post in your _posts directory. Go ahead and e
 Statistics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,..
 
 
-- Linear regression: [linear regression](https:/teach.phylolab.net/course/stat6420)
+- Linear regression: [linear regression](/course/regression)
 - Machine learning
     
 <div><i class="material-icons" style="font-size:50px;color:orange;">key</i></div>
