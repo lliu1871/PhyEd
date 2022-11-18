@@ -49,7 +49,8 @@ layout: home
 </div>
 
 <hr>
-<h2 style="color:#4175F7">Post since 2022-06-10</h2>
+<h3 style="color:#4175F7">Post since 2022-06-10</h3>
 <p></p>
 <p></p>
-
+<p></p>
+<p></p>
