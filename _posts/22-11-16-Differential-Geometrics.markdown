@@ -53,7 +53,9 @@ A atlas is a collection of charts $\mathscr A=\{(\psi_\alpha,U_\alpha)\}_{\alpha
 
 # Differentiable manifold
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fa6SRAwY80Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 # Tangent space
+
 ## Differentiable functions on a manifold
 A real valued function $f:M\rightarrow R$ on a $n$ dimensional differentiable manifold $M$ is said to be differentiable at a point $p\in M$ if it is differentiable in any coordinate chart around $p$. Specifically, if $(U,\phi)$ is a differentiable chart where $U$ is an open set in $M$ containing $p$, then $f$ is differentiable if and only if $f\circ \phi^{-1}: \phi(U)\rightarrow \mathbb R$ is differentiable at $\phi (p)$.
 ### Equivalent curves
