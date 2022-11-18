@@ -50,4 +50,4 @@ layout: home
 
 <hr>
 <h3 style="color:#4175F7">Post since 2022-06-10</h3>
-<p style="margin-bottom:3cm;">This is the first question?</p>
+<p style="margin-bottom:1cm;"></p>
