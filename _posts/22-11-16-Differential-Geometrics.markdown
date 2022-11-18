@@ -31,26 +31,29 @@ The derivative of $f$ with respect to $g$ at point $p$ is a linear map from the 
 
 ## Set theory
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6EIWRg-6ftQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-\## Topological space
+
+## Topological space
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6EIWRg-6ftQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-\## Topological manifold
+
+## Topological manifold
 A **topological manifold** is a topological space which is locally homeomorphic to a Euclidean space. Each point in the manifold is equipped with a local coordinate system, which is constructed through a **chart**, i.e., a local **homeomorphic** to a Euclidean space. The **dimension** of the topolocal manifold is equal to the dimension of the locally homeomorphic Euclidean space. The topology of a topological manifold can be inherited by any subset of the manifold. **Submanifold** can be constructed through the relative topology inherited from the manifold.
 A topological manifold provides a local structure necessary for continuous maps to work on a geometric object. However, it requires additional structure to allow differentiation and integration on the manifold. A **smooth manifold** is a topological manifold which is locally **diffeomorphic** to a Euclidean space. Differentiation at a point in the smooth manifold is constructed on the **tangent space**, in which a tangent vector is the velocity of a smooth curve in the manifold. **Derivatives** are defined through charts similarly as those defined in the Euclidean spaces. To perform vector calculus on the manifold, a **vector field**, **integral curves**, and **flow of a vector field** are defined. A vector field of a manifold can be mapped to another vector field of another manifold or vice versa through two linear maps **pullback** and **pushforward**. The differential of a vector field is defined through **Lie bracket**. A more general defination **derivation** of a vector field is given in the context of the **Lie algebra** of a **Lie group**.
 A smooth manifold is represented by a set of local coordinates. Reconstruction of the global geometric object from local coordinates is possible for a smooth manifold with a **Hausdorff topology**, i.e., Riemanian metric manifold. The existance of a coutable atlas indicates that a smooth manifold with a Hausdorff and second coutable topology is **metrizable** and **paracompact**.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uGEV0Wk0eIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-\#### Chart
+#### Chart
 Let $U\subset M$ be a subset of a manifold M. A chart is a pair $(U,\psi)$ where $\psi: U\rightarrow \mathbb{R}^k$ is a bijection map from $U$ to an open set $\psi(U)\subset \mathbb{R}^k$.
 A atlas is a collection of charts $\mathscr A=\{(\psi_\alpha,U_\alpha)\}_{\alpha\in A}$ that cover the manifold M.
 \# Differentiable manifold
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fa6SRAwY80Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-\# Tangent space
-\## Differentiable functions on a manifold
+# Tangent space
+## Differentiable functions on a manifold
 A real valued function $f:M\rightarrow R$ on a $n$ dimensional differentiable manifold $M$ is said to be differentiable at a point $p\in M$ if it is differentiable in any coordinate chart around $p$. Specifically, if $(U,\phi)$ is a differentiable chart where $U$ is an open set in $M$ containing $p$, then $f$ is differentiable if and only if $f\circ \phi^{-1}: \phi(U)\rightarrow \mathbb R$ is differentiable at $\phi (p)$.
-\### Equivalent curves
+### Equivalent curves
 Two curves $\gamma_1$ and $\gamma_2$ with $\gamma_1 (0)=\gamma_2(0)=p$ in a differentiable manifold $M$ are equivalent, denoted by $\gamma_1 \equiv \gamma_2$, if for any coordinate chart $\phi$,
 $$\frac{d}{dt}\phi\circ \gamma_1(t)|_{t=0}=\frac{d}{dt}\phi\circ \gamma_2(t)|_{t=0}$$
 The equivalence classes are curves through *p* with a prescribed [velocity vector](https://en.wikipedia.org/wiki/Velocity_vector "Velocity vector") at *p*.
-\### Tangent space
+### Tangent space
 A tangent vector at a point $p\in M$ is an equivalent class of differentiable curves $\gamma$ with $\gamma(0)=p\in M$.  The collection of all tangent vectors at *p* forms a [vector space](https://en.wikipedia.org/wiki/Vector_space "Vector space"): the [tangent space](https://en.wikipedia.org/wiki/Tangent_space "Tangent space") to $M$ at $p$, denoted $\color{red}T_pM$.
 
 ##### A tangent vector for embedded manifold
@@ -66,12 +69,12 @@ Let $X$ be a tangent vector at $p\in M$ and $f$ is a differentiable function. De
 
 Def: Let $M\subset \mathbb{R}^n$ be a smooth $m$-dimensional manifold and a point $p\in M$. A vector $v\in \mathbb{R}^n$ is a tangent vector of $M$ at $p$ if there exists a smooth curve $\gamma:R\rightarrow M$ such that $\gamma(0)=p$ and $\dot{\gamma}(0)=v$.  
 The set $T_pM := \{\dot{\gamma}(0)|\gamma:R\rightarrow M, \gamma(0)=p\}$ of tangent vectors of $M$ at $p$ is called the tangent space of M at p.
-\## Derivative
-Def: Let $f:M\rightarrow \mathbb{R}^k$ be a smooth function. The derivative of $f$ at a point $p\in M$, denoted by $df(p)$, is a linear function $df(p):T_pM\rightarrow \mathbb{R}^k$, defined by $df(p)v:=\frac{df(\gamma(t))}{dt}=\lim_{h\rightarrow0}\frac{f(\gamma(h))-f(p)}{h}$, where $\gamma:R\rightarrow M$ is a smooth curve satisfying $\gamma(0)=p$ and $\dot{\gamma}(0)=v$.
+## Derivative
+Def: Let $f:M\rightarrow \mathbb{R}^k$ be a smooth function. The derivative of $f$ at a point $p\in M$, denoted by $df(p)$, is a linear function $df(p):T_pM\rightarrow\mathbb{R}^k$, defined by $df(p)v:=\frac{df(\gamma(t))}{dt}=\lim_{h\rightarrow0}\frac{f(\gamma(h))-f(p)}{h}$, where $\gamma:R\rightarrow M$ is a smooth curve satisfying $\gamma(0)=p$ and $\dot{\gamma}(0)=v$.
 This is the directional derivative of $f$ in the direction of $v$, i.e., the change of $f$ along the smooth curve $\gamma$.
-\## Diffeomorphism
+## Diffeomorphism
 Thereom: Let $M ⊂ R^k$ be a smooth $m$-manifold and $N ⊂ R$ be a smooth $n$-manifold and let $f : M → N$ be a diffeomorphism. Then $m = n$ and the differential $df(p): T_pM → T_{f(p)}N$ is a vector space isomorphism with inverse $df(p)^{− 1} = df^{−1}(f(p)):T_{f ( p )}N → T_pM$ for all $p ∈ M$.
-\## Inverse function theorem
+## Inverse function theorem
 Let $M ⊂ R^k$ and $N ⊂ R^l$ be smooth $n$-manifolds and $f : M → N$ be a smooth map. Let $p_0 ∈ M$ and suppose that the differential $df ( p_0 ) : T_{p_0}M →T_{f(p_0)}N$ is a vector space isomorphism. Then there is an $M$-open neighborhood $U ⊂ M$ of $p_0$ such that $V := f ( U ) ⊂ N$ is an $N$-open subset of $N$ and the restriction $f |_U : U → V$ is a diffeomorphism.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4l-qzZOZt50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
