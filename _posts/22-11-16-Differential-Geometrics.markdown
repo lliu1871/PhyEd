@@ -1,5 +1,8 @@
---
+---
 layout: post
+title:  "Differential Geometry"
+date:   2021-11-04 18:39:45 -0500
+categories: mathematics
 ---
 
 # History
