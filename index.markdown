@@ -14,13 +14,13 @@ layout: home
     </div>
     <div class="col-sm-4">
       <a href="https://teach.phylolab.net/course">
-        <div class="text-center"><i class="material-icons" style="font-size:120px;color:orange;">wifi_tethering</i></div>
+        <div class="text-center"><i class="material-icons" style="font-size:80px;color:orange;">wifi_tethering</i></div>
       </a>
       <p><span style="color:orange;font-size:20px">Code</span>: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>         
     </div>
     <div class="col-sm-4">
       <a href="https://teach.phylolab.net/course">
-        <div class="text-center"><i class="material-icons" style="font-size:120px;color:orange;">video_label</i></div>
+        <div class="text-center"><i class="material-icons" style="font-size:80px;color:orange;">video_label</i></div>
       </a>
       <p><span style="color:orange;font-size:20px">Presentation</span>: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>             
     </div>
@@ -29,19 +29,19 @@ layout: home
   <div class="row">
     <div class="col-sm-4">
       <a href="https://teach.phylolab.net/course">
-        <div class="text-center"><i class="material-icons" style="font-size:120px;color:orange;">sort</i></div>
+        <div class="text-center"><i class="material-icons" style="font-size:80px;color:orange;">sort</i></div>
       </a>
       <p><span style="color:orange;font-size:20px">Course</span>: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>   
     </div>
     <div class="col-sm-4">
       <a href="https://teach.phylolab.net/course">
-        <div class="text-center"><i class="material-icons" style="font-size:120px;color:orange;">key</i></div>
+        <div class="text-center"><i class="material-icons" style="font-size:80px;color:orange;">key</i></div>
       </a>
       <p><span style="color:orange;font-size:20px">Code</span>: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>         
     </div>
     <div class="col-sm-4">
       <a href="https://teach.phylolab.net/course">
-        <div class="text-center"><i class="material-icons" style="font-size:120px;color:orange;">autorenew</i></div>
+        <div class="text-center"><i class="material-icons" style="font-size:80px;color:orange;">autorenew</i></div>
       </a>
       <p><span style="color:orange;font-size:20px">Presentation</span>: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...</p>             
     </div>
