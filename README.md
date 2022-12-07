@@ -1,4 +1,4 @@
-# jekyll-bootstrap-theme
+# Phylogenetic Education
 
 [![Gem Version](https://badge.fury.io/rb/jekyll-bootstrap-theme.svg)](https://badge.fury.io/rb/jekyll-bootstrap-theme)
 
