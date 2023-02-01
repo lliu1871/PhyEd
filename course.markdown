@@ -5,12 +5,10 @@ permalink: /course/
 ---
 
 <div><i class="material-icons" style="font-size:50px;color:orange;">devices</i></div>
-Phylogenetics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,.. 
+Phylogenetics: phylogenetic trees are fundamental tools for understanding the evolutionary history of species. Molecular phylogenetics utilizes sequence data to infer phylogenies using distance, maximum parsimony, and maximum likelihood approaches. 
 
+- [Statistical phylogenetics](https://book.phylolab.net/phylogenetics/intro.html)
 
-- Pairwise alignment: [Needleman-Wunch algorithm](/code/needleman), [Smith-Waterman algorithm](/code/smith)
-- Multiple sequence alignment: 
-- [Tree traversal](/code/traversal)
 
 <div><i class="material-icons" style="font-size:50px;color:orange;">wifi_tethering</i></div>
 Bioinformatics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,..      
