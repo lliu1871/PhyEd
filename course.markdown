@@ -9,31 +9,20 @@ Phylogenetics: phylogenetic trees are fundamental tools for understanding the ev
 
 - [Statistical phylogenetics](https://book.phylolab.net/phylogenetics/intro.html)
 
-
 <div><i class="material-icons" style="font-size:50px;color:orange;">wifi_tethering</i></div>
-Bioinformatics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,..      
+Bioinformatics: a scientific subdiscipline that involves using computer technology to collect, store, analyze and disseminate biological data and information, such as DNA and amino acid sequences or annotations about those sequences (see National Human Genome Research Institute).
+
+- [statistical inference in bioinformatics](https://book.phylolab.net/binf8441/intro.html)
 
 <div><i class="material-icons" style="font-size:50px;color:orange;">sort</i></div>
-Statistics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,..
+Statistics: the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data (from Wikipedia).
 
-
-- Linear regression
-- Machine learning
+- [Machine learning](https://book.phylolab.net/machine/intro.html)
+= [Stochastic processes](https://book.phylolab.net/stochastic/index.html)
     
 <div><i class="material-icons" style="font-size:50px;color:orange;">key</i></div>
-Programming: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...      
+Programming: computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), usually by designing and building an executable computer program.
 
-#### Statistics
-- Introduction to Statistics
-- Linear regression
-- 
-
-
-#### Bioinformatics
-- BINF8441
-
-
-#### Programming
 - C programming
 - R 
 - Python
