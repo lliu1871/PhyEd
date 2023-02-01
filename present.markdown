@@ -5,7 +5,7 @@ permalink: /present/
 ---
 
 <div><i class="material-icons" style="font-size:50px;color:orange;">devices</i></div>
-Phylogenetics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,.. 
+Phylogenetics: phylogenetic trees are fundamental tools for understanding the evolutionary history of species. Molecular phylogenetics utilizes sequence data to infer phylogenies using distance, maximum parsimony, and maximum likelihood approaches. 
 
 
 - Pairwise alignment: [Needleman-Wunch algorithm](/code/needleman), [Smith-Waterman algorithm](/code/smith)
@@ -13,17 +13,18 @@ Phylogenetics: You’ll find this post in your _posts directory. Go ahead and ed
 - [Tree traversal](/code/traversal)
 
 <div><i class="material-icons" style="font-size:50px;color:orange;">wifi_tethering</i></div>
-Bioinformatics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,..      
+Bioinformatics: a scientific subdiscipline that involves using computer technology to collect, store, analyze and disseminate biological data and information, such as DNA and amino acid sequences or annotations about those sequences (see National Human Genome Research Institute).
+   
 
 <div><i class="material-icons" style="font-size:50px;color:orange;">sort</i></div>
-Statistics: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,..
-
+Statistics: the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data (from Wikipedia).
 
 - Linear regression
 - Machine learning
     
 <div><i class="material-icons" style="font-size:50px;color:orange;">key</i></div>
-Programming: You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways,...      
+Programming: computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), usually by designing and building an executable computer program.
+     
 
 <div class="container-fluid">
 	<div class="row">

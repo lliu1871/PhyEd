@@ -18,13 +18,9 @@ Bioinformatics: a scientific subdiscipline that involves using computer technolo
 Statistics: the discipline that concerns the collection, organization, analysis, interpretation, and presentation of data (from Wikipedia).
 
 - [Machine learning](https://book.phylolab.net/machine/intro.html)
-= [Stochastic processes](https://book.phylolab.net/stochastic/index.html)
+- [Stochastic processes](https://book.phylolab.net/stochastic/index.html)
     
 <div><i class="material-icons" style="font-size:50px;color:orange;">key</i></div>
 Programming: computer programming is the process of performing a particular computation (or more generally, accomplishing a specific computing result), usually by designing and building an executable computer program.
 
-- C programming
-- R 
-- Python
-- Julia
 
